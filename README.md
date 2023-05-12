@@ -21,7 +21,15 @@ I started by installing the git bash and running this command
  #### INSTALL PHP
  First of all i installed php-fpm which handles php processing and acts as a border between the php interpreter and webserver. I also installed php-mysql which allows php to communicate with mysql. The comand used for the 2 operations was sudo apt install php-fpm php-mysql
  ##### CONFIGURING NGINX TO USE PHP PROCESSOR
- 
+ I created a directory structure within /var/www/ called LEMPSTACK sudo mkdir /var/www/projectLEMP, i assigned ownership of the directory with this sudo chown -R $USER:$USER /var/www/projectLEMP
+Then i opened a new configuration file in nginx using nano  sudo nano /etc/nginx/sites-available/projectLEMP
+It created a blank file which i pasted the bare bones configuration to. I activated the configuration using this sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
+This will tell Nginx to use the configuration when next it is reloaded. Then i disabled default Nginx host with this sudo unlink /etc/nginx/sites-enabled/default
+I reloaded so changes could apply. 
+ ![LEMP STACK IP](https://github.com/Chinyereonyenwe34/Project1/assets/132712031/fbf28c5a-33cb-45b9-99a8-e9fff86783dc)
+
+
+
 
  
 
