@@ -35,7 +35,7 @@ Itested php with Nginix by creating a new php file in my document root. I opened
  I created an example user on mysql, modified the password and was able to log into the database with thw example user account.
  ![MYSQL ACCESS TO EXAMPLE USER](https://github.com/Chinyereonyenwe34/Project1/assets/132712031/3e40da31-8798-43d5-b03d-32f7576b4a28)
  
-$ Retreiving data from mysql database
+$ Retreiving data from mysql database. I started by running the command 
                              
  
 
