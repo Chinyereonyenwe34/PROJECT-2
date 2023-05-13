@@ -27,7 +27,17 @@ It created a blank file which i pasted the bare bones configuration to. I activa
 This will tell Nginx to use the configuration when next it is reloaded. Then i disabled default Nginx host with this sudo unlink /etc/nginx/sites-enabled/default
 I reloaded so changes could apply. 
  ![LEMP STACK IP](https://github.com/Chinyereonyenwe34/Project1/assets/132712031/fbf28c5a-33cb-45b9-99a8-e9fff86783dc)
+ ###### Testing PHP with Nginx
+Itested php with Nginix by creating a new php file in my document root. I opened the file and inputed some information into it, then i accessed the page using my domain name on my web browser using the public IP address i set up in my nginx configuration file
+ 
+ 
+ ####### RETRIEVING DATA FROM MYSQL DATABASE WITH PHP 
+ I created an example user on mysql, modified the password and was able to log into the database with thw example user account.
+ ![MYSQL ACCESS TO EXAMPLE USER](https://github.com/Chinyereonyenwe34/Project1/assets/132712031/3e40da31-8798-43d5-b03d-32f7576b4a28)
+ 
 
+                             
+ 
 
 
 
